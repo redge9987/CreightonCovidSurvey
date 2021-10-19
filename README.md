@@ -15,6 +15,7 @@ Anyone may download, distribute, or modify this project without restriction.
 
 Instructions to make this website functional:
 1. Set up a MySQL Database (I used Infinity Free) with the following table:
+	
 	CREATE TABLE surveyresults(
 	participantID INT AUTO_INCREMENT,
 	cat1 INT,
@@ -23,8 +24,11 @@ Instructions to make this website functional:
 	cat4 INT,
 	cat5 INT,
 	PRIMARY KEY(participantID));
+	
 2. Open the file 'connectToInfinityDB.inc'
 3. Find the line that starts with '$dbConnection' 
 4. Modify the line to the following, replacing the uppercase words with your database information. Include the quotation marks:
+
 	$dbConnection = mysqli_connect("MYSQL_HOSTNAME", "MYSQL_USERNAME", "PASSWORD", "DATABASE_NAME");
+	
 5. The website is functional if hitting the "Submit" button on the survey page displays a Thank-You message, and if the admin page is displaying a bar graph. 
