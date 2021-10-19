@@ -1,6 +1,9 @@
 # CreightonCovidSurvey
+
 By Ryan King, Jimmy Phelps, and Dr. Samer Al-Khateeb
+
 Creighton University
+
 November 19, 2020
 
 Description: College project for a PHP/MySQL website.
