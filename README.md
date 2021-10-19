@@ -1,7 +1,7 @@
 # CreightonCovidSurvey
-# By Ryan King, Jimmy Phelps, and Dr. Samer Al-Khateeb
-# Creighton University
-# November 19, 2020
+By Ryan King, Jimmy Phelps, and Dr. Samer Al-Khateeb
+Creighton University
+November 19, 2020
 
 Description: College project for a PHP/MySQL website.
 This website that allows Creighton University students to answer questions about their comfort with the college campus in light of the COVID-19 pandemic. 
